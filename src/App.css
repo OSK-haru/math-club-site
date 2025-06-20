@@ -1,16 +1,19 @@
 /* App.css */
 body {
-  font-family: 'M PLUS 1p', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  color: #111111;
+  background: linear-gradient(135deg, #f9f9ff, #e3f2fd);
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 
-/* メインコンテンツ */
+
 main {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  border-radius: 12px;
   padding: 2rem;
+  margin-top: 2rem;
 }
 
 /* 画像に余白 */
