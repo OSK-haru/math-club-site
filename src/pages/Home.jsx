@@ -1,13 +1,17 @@
+
+import { motion } from 'framer-motion';
+
 function Home() {
   return (
-    <main>
-      <h2>ようこそ！数学研究同好会へ</h2>
-      <p>
-        数学研究同好会では、ゼミ、研究発表、講義動画などを通して数学の面白さを探求しています。
-        楽しく、コミカルに数学を伝えることを目指しています！
-      </p>
-      <img src="/logo.png" alt="数学ロゴ" width="200" />
-    </main>
+    <motion.section 
+      className="home-section"
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: 'easeOut' }}
+    >
+      <h1>ようこそ、数学研究同好会へ！</h1>
+      <p>ゼミ資料や活動を通じて、数学の魅力を一緒に発信していきましょう。</p>
+    </motion.section>
   );
 }
 

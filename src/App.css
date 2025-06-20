@@ -1,27 +1,35 @@
+/* App.css */
 body {
-  font-family: sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
-  color: #858080;
+  background-color: #ffffff;
+  color: #111111;
 }
 
+/* Header, Footer */
 header, footer {
   background: #0abce9;
   padding: 1rem;
   text-align: center;
 }
 
+/* ナビゲーションリンク */
 nav a {
   margin: 0 1rem;
   text-decoration: none;
   color: #edf0f2;
+  font-weight: 500;
 }
 
+/* メインコンテンツ */
 main {
   padding: 2rem;
 }
 
+/* 画像に余白 */
 img {
   margin-top: 1rem;
+  max-width: 100%;
+  height: auto;
 }

@@ -1,13 +1,17 @@
-import { Link } from 'react-router-dom';
+// components/Header.jsx
+import { Link, useLocation } from 'react-router-dom';
+import './Header.css';
 
 function Header() {
+  const location = useLocation();
+
   return (
-    <header>
-      <h1>数学研究同好会</h1>
+    <header className="header">
+      <div className="logo">Math Club</div>
       <nav>
-        <Link to="/">トップ</Link> |{' '}
-        <Link to="/resources">資料ページ</Link> |{' '}
-        <Link to="/diary">部長のひとりごと</Link>
+        <Link to="/" className={location.pathname === '/' ? 'active' : ''}>ホーム</Link>
+        <Link to="/resources" className={location.pathname === '/resources' ? 'active' : ''}>資料</Link>
+        <Link to="/diary" className={location.pathname === '/diary' ? 'active' : ''}>ひとりごと</Link>
       </nav>
     </header>
   );
