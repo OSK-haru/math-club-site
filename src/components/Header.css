@@ -1,28 +1,36 @@
-/* src/components/Header.css */
+/* components/Header.css */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 2rem;
-  background: white;
+  padding: 1rem 2rem;
   border-bottom: 1px solid #eee;
-  font-family: 'M PLUS 1p', sans-serif;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.header .logo {
-  font-weight: 700;
-  font-size: 1.3rem;
-}
-
-.header nav a {
-  margin-left: 1.2rem;
-  text-decoration: none;
-  color: #444;
-  transition: color 0.3s ease;
-}
-
-.header nav a:hover,
-.header nav a.active {
-  color: #007acc;
+.logo {
   font-weight: bold;
+  font-size: 1.2rem;
 }
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff2e63;
+}
+
+nav a.active {
+  color: #ff2e63;
+  border-bottom: 2px solid #ff2e63;
+  padding-bottom: 0.25rem;
+}
+
