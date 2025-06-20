@@ -1,0 +1,28 @@
+/* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background: white;
+  border-bottom: 1px solid #eee;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+.header .logo {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.header nav a {
+  margin-left: 1.2rem;
+  text-decoration: none;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.header nav a:hover,
+.header nav a.active {
+  color: #007acc;
+  font-weight: bold;
+}
