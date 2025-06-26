@@ -1,5 +1,7 @@
 
 import { motion } from 'framer-motion';
+import InteractiveParaboloid from '../components/InteractiveParaboloid';
+
 
 function Home() {
   return (
@@ -11,6 +13,8 @@ function Home() {
     >
       <h1>ようこそ、数学研究同好会へ！</h1>
       <p>ゼミ資料や活動を通じて、数学の魅力を一緒に発信していきましょう。</p>
+     
+
     </motion.section>
   );
 }

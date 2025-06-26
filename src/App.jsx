@@ -1,10 +1,10 @@
 // App.jsx
+import BackgroundCanvas from './components/Backgroundcanvas';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
 import Diary from './pages/Diary';
 import Header from './components/Header';
-import BackgroundCanvas from './components/Backgroundcanvas';
 import './App.css';
 
 function App() {

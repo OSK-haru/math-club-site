@@ -2,10 +2,15 @@ function Resources() {
   return (
     <main>
       <h2>資料・講義動画ページ</h2>
+      <h1>一年生</h1>
       <ul>
-        <li><a href="https://example.com/document1.pdf" target="_blank">ゼミ資料1（整数論）</a></li>
-        <li><a href="https://www.youtube.com/watch?v=XXXXX" target="_blank">講義動画1（微積分）</a></li>
+        <li><a href="src/pdfs/三角関数の加法定理セミナー資料.pdf" target="_blank">加法定理（Chatgpt）</a></li>
+        <li><a href="src/pdfs/余弦定理・正弦定理.pdf" target="_blank">余弦定理・正弦定理（chatgpt）</a></li>
       </ul>
+      <h1>二年生</h1>
+      <h1>三年生</h1>
+      <h1>四年生</h1>
+      <h1>五年生</h1>
     </main>
   );
 }
