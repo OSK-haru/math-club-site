@@ -10,7 +10,7 @@ function Resources() {
       <h1>二年生</h1>
         <ul>
           <li><a href="/math-club-site/pdfs/logとネイピア数.pdf" target="_blank">logとネイピア数</a>l</li>
-          <li><a href="/math-club-site/pdfs/∑って？.pdf." target="_blank">∑とは</a></li>
+          <li><a href="/math-club-site/pdfs/∑って？.pdf" target="_blank">∑とは</a></li>
           <li><a href="/math-club-site/pdfs/微分入門セミナー 講義ノート.pdf" target="_blank">微分入門（chatgpt）</a></li>
           <li><a href="/math-club-site/pdfs/微分入門セミナー別途 部長による補足.pdf" target="_blank">微分入門補足</a></li>
           <li><a href="/math-club-site/pdfs/微分セミナーII.pdf" target="_blank">微分セミナーII</a></li>
