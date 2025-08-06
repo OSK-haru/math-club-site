@@ -26,6 +26,17 @@ function Resources() {
         </ul>
       <h1>四年生</h1>
       <h1>五年生</h1>
+      <h1>その他発展的話題</h1>
+      <h1>部長の記事</h1>
+        <ul>
+          <li><a href="/math-club-site/pdfs/01.pdf" target="_blank">01:2025/08/04(Fatouの補題)</a></li>
+          <li><a href="/math-club-site/pdfs/02.pdf" target="_blank">02:2025/08/05(IMO 2021 problem1)</a></li>
+
+
+
+
+        </ul>
+
     </main>
   );
 }
